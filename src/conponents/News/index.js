@@ -202,12 +202,12 @@ const News = () => {
               </div>
               <div className="news-block-two-col-info">
                 <div className="news-block-title mb-2">
-                  <h6><a href="news-detail.html" className="news-block-title-link">Food donation area</a></h6>
+                  <h6><a href="news-detail.html" className="news-block-title-link">Water Intake Information </a></h6>
                 </div>
                 <div className="news-block-date">
                   <p>
                     <i className="bi-calendar4 custom-icon me-1" />
-                    October 16, 2036
+                    Memberikan informasi atau kalkulator sederhana tentang berapa banyak air yang harus dikonsumsi seseorang dalam sehari berdasarkan berat badan
                   </p>
                 </div>
               </div>
@@ -225,7 +225,7 @@ const News = () => {
                 <div className="news-block-date">
                   <p>
                     <i className="bi-calendar4 custom-icon me-1" />
-                    menyediakan panduan latihan mindfulness atau pernapasan yang bisa langsung diakses
+                    menyediakan panduan latihan mindfulness atau pernapasan yang bisa langsung diakses, seperti instruksi untuk teknik pernapasan sederhana atau meditasi singkat.
                   </p>
                 </div>
               </div>
