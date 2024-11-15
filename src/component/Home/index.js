@@ -7,12 +7,12 @@ const Home = () => {
         <div className="col-lg-8 col-12 d-flex flex-wrap">
           <p className="d-flex me-4 mb-0">
             <i className="bi-geo-alt me-2" />
-            Akershusstranda 20, 0150 Oslo, Norway
+            Universitas Klabat
           </p>
           <p className="d-flex mb-0">
             <i className="bi-envelope me-2" />
             <a href="mailto:info@company.com">
-              info@company.com
+              Klabat@company.com
             </a>
           </p>
         </div>
@@ -43,8 +43,8 @@ const Home = () => {
       <a className="navbar-brand" href="index.html">
         <img src="assets/images/logo.png" className="logo img-fluid" alt="Kind Heart Charity" />
         <span>
-          Kind Heart Charity
-          <small>Non-profit Organization</small>
+          EcoHabit
+          <small>Front End</small>
         </span>
       </a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,20 +90,9 @@ const Home = () => {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img src="assets/images/slide/volunteer-helping-with-donation-box.jpg" className="carousel-image img-fluid" alt="..." />
-  
-                    <h1>be a Kind Heart</h1>
-                    <p>Professional charity theme based on Bootstrap 5.2.2</p>
                   </div>
                 </div>
               </div>
-              <button className="carousel-control-prev" type="button" data-bs-target="#hero-slide" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true" />
-                <span className="visually-hidden">Previous</span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target="#hero-slide" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true" />
-                <span className="visually-hidden">Next</span>
-              </button>
             </div>
           </div>
       </div>
@@ -112,7 +101,7 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-10 col-12 text-center mx-auto">
-            <h2 className="mb-5">Welcome to Kind Heart Charity</h2>
+            <h2 className="mb-5">Welcome to EcoHabit</h2>
           </div>
           <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
             <div className="featured-block d-flex justify-content-center align-items-center">
@@ -125,7 +114,7 @@ const Home = () => {
           <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
             <div className="featured-block d-flex justify-content-center align-items-center">
               <a href="donate.html" className="d-block">
-                <img src="images/icons/heart.png" className="featured-block-image img-fluid" alt />
+                <img src="assets/images/icons/heart.png" className="featured-block-image img-fluid" alt />
                 <p className="featured-block-text"><strong>Caring</strong> Earth</p>
               </a>
             </div>
@@ -133,15 +122,15 @@ const Home = () => {
           <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
             <div className="featured-block d-flex justify-content-center align-items-center">
               <a href="donate.html" className="d-block">
-                <img src="images/icons/receive.png" className="featured-block-image img-fluid" alt />
-                <p className="featured-block-text">Make a <strong>Donation</strong></p>
+                <img src="assets/images/icons/receive.png" className="featured-block-image img-fluid" alt />
+                <p className="featured-block-text">Healthy <strong>Living</strong></p>
               </a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
             <div className="featured-block d-flex justify-content-center align-items-center">
               <a href="donate.html" className="d-block">
-                <img src="images/icons/scholarship.png" className="featured-block-image img-fluid" alt />
+                <img src="assets/images/icons/scholarship.png" className="featured-block-image img-fluid" alt />
                 <p className="featured-block-text"><strong>Scholarship</strong> Program</p>
               </a>
             </div>
@@ -153,12 +142,12 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-12 mb-5 mb-lg-0">
-            <img src="images/group-people-volunteering-foodbank-poor-people.jpg" className="custom-text-box-image img-fluid" alt />
+            <img src="assets/images/group-people-volunteering-foodbank-poor-people.jpg" className="custom-text-box-image img-fluid" alt />
           </div>
           <div className="col-lg-6 col-12">
             <div className="custom-text-box">
               <h2 className="mb-2">Our Story</h2>
-              <h5 className="mb-3">Kind Heart Charity, Non-Profit Organization</h5>
+              <h5 className="mb-3">EcoHabit</h5>
               <p className="mb-0">This is a Bootstrap 5.2.2 CSS template for charity organization websites. You can feel free to use it. Please tell your friends about TemplateMo website. Thank you. HTML CSS files updated on 20 Oct 2022.</p>
             </div>
             <div className="row">
@@ -205,7 +194,7 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-5 col-12">
-            <img src="images/portrait-volunteer-who-organized-donations-charity.jpg" className="about-image ms-lg-auto bg-light shadow-lg img-fluid" alt />
+            <img src="assets/images/portrait-volunteer-who-organized-donations-charity.jpg" className="about-image ms-lg-auto bg-light shadow-lg img-fluid" alt />
           </div>
           <div className="col-lg-5 col-md-7 col-12">
             <div className="custom-text-block">
@@ -229,19 +218,7 @@ const Home = () => {
         </div>
       </div>
     </section>
-    <section className="cta-section section-padding section-bg">
-      <div className="container">
-        <div className="row justify-content-center align-items-center">
-          <div className="col-lg-5 col-12 ms-auto">
-            <h2 className="mb-0">Make an impact. <br /> Save lives.</h2>
-          </div>
-          <div className="col-lg-5 col-12">
-            <a href="#" className="me-4">Make a donation</a>
-            <a href="#section_4" className="custom-btn btn smoothscroll">Become a volunteer</a>
-          </div>
-        </div>
-      </div>
-    </section>
+
     <section className="section-padding" id="section_3">
       <div className="container">
         <div className="row">
@@ -250,51 +227,23 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
             <div className="custom-block-wrap">
-              <img src="images/causes/group-african-kids-paying-attention-class.jpg" className="custom-block-image img-fluid" alt />
+              <img src="assets/images/causes/group-african-kids-paying-attention-class.jpg" className="custom-block-image img-fluid" alt />
               <div className="custom-block">
                 <div className="custom-block-body">
                   <h5 className="mb-3">Children Education</h5>
                   <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito</p>
-                  <div className="progress mt-4">
-                    <div className="progress-bar w-75" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
-                  </div>
-                  <div className="d-flex align-items-center my-2">
-                    <p className="mb-0">
-                      <strong>Raised:</strong>
-                      $18,500
-                    </p>
-                    <p className="ms-auto mb-0">
-                      <strong>Goal:</strong>
-                      $32,000
-                    </p>
-                  </div>
                 </div>
-                <a href="donate.html" className="custom-btn btn">Donate now</a>
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
             <div className="custom-block-wrap">
-              <img src="images/causes/poor-child-landfill-looks-forward-with-hope.jpg" className="custom-block-image img-fluid" alt />
+              <img src="assets/images/causes/poor-child-landfill-looks-forward-with-hope.jpg" className="custom-block-image img-fluid" alt />
               <div className="custom-block">
                 <div className="custom-block-body">
                   <h5 className="mb-3">Poverty Development</h5>
                   <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus tempor</p>
-                  <div className="progress mt-4">
-                    <div className="progress-bar w-50" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} />
-                  </div>
-                  <div className="d-flex align-items-center my-2">
-                    <p className="mb-0">
-                      <strong>Raised:</strong>
-                      $27,600
-                    </p>
-                    <p className="ms-auto mb-0">
-                      <strong>Goal:</strong>
-                      $60,000
-                    </p>
-                  </div>
                 </div>
-                <a href="donate.html" className="custom-btn btn">Donate now</a>
               </div>
             </div>
           </div>
@@ -356,7 +305,7 @@ const Home = () => {
             </form>
           </div>
           <div className="col-lg-6 col-12">
-            <img src="images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg" className="volunteer-image img-fluid" alt />
+            <img src="assets/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg" className="volunteer-image img-fluid" alt />
             <div className="custom-block-body text-center">
               <h4 className="text-white mt-lg-3 mb-lg-3">About Volunteering</h4>
               <p className="text-white">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito Professional charity theme based</p>
@@ -375,7 +324,7 @@ const Home = () => {
             <div className="news-block">
               <div className="news-block-top">
                 <a href="news-detail.html">
-                  <img src="images/news/medium-shot-volunteers-with-clothing-donations.jpg" className="news-image img-fluid" alt />
+                  <img src="assets/images/news/medium-shot-volunteers-with-clothing-donations.jpg" className="news-image img-fluid" alt />
                 </a>
                 <div className="news-category-block">
                   <a href="#" className="category-block-link">
@@ -491,7 +440,7 @@ const Home = () => {
             <div className="news-block news-block-two-col d-flex mt-4">
               <div className="news-block-two-col-image-wrap">
                 <a href="news-detail.html">
-                  <img src="images/news/close-up-happy-people-working-together.jpg" className="news-image img-fluid" alt />
+                  <img src="assets/images/news/close-up-happy-people-working-together.jpg" className="news-image img-fluid" alt />
                 </a>
               </div>
               <div className="news-block-two-col-info">
@@ -597,16 +546,16 @@ const Home = () => {
                 </div>
                 <ol className="carousel-indicators">
                   <li data-bs-target="#testimonial-carousel" data-bs-slide-to={0} className="active">
-                    <img src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg" className="img-fluid rounded-circle avatar-image" alt="avatar" />
+                    <img src="assets/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg" className="img-fluid rounded-circle avatar-image" alt="avatar" />
                   </li>
                   <li data-bs-target="#testimonial-carousel" data-bs-slide-to={1} className>
-                    <img src="images/avatar/portrait-young-redhead-bearded-male.jpg" className="img-fluid rounded-circle avatar-image" alt="avatar" />
+                    <img src="assets/images/avatar/portrait-young-redhead-bearded-male.jpg" className="img-fluid rounded-circle avatar-image" alt="avatar" />
                   </li>
                   <li data-bs-target="#testimonial-carousel" data-bs-slide-to={2} className>
-                    <img src="images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg" className="img-fluid rounded-circle avatar-image" alt="avatar" />
+                    <img src="assets/images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg" className="img-fluid rounded-circle avatar-image" alt="avatar" />
                   </li>
                   <li data-bs-target="#testimonial-carousel" data-bs-slide-to={3} className>
-                    <img src="images/avatar/studio-portrait-emotional-happy-funny.jpg" className="img-fluid rounded-circle avatar-image" alt="avatar" />
+                    <img src="assets/images/avatar/studio-portrait-emotional-happy-funny.jpg" className="img-fluid rounded-circle avatar-image" alt="avatar" />
                   </li>
                 </ol>
               </div>
@@ -622,7 +571,7 @@ const Home = () => {
             <div className="contact-info-wrap">
               <h2>Get in touch</h2>
               <div className="contact-image-wrap d-flex flex-wrap">
-                <img src="images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg" className="img-fluid avatar-image" alt />
+                <img src="assets/images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg" className="img-fluid avatar-image" alt />
                 <div className="d-flex flex-column justify-content-center ms-3">
                   <p className="mb-0">Clara Barton</p>
                   <p className="mb-0"><strong>HR &amp; Office Manager</strong></p>
@@ -677,7 +626,7 @@ const Home = () => {
     <div className="container">
       <div className="row">
         <div className="col-lg-3 col-12 mb-4">
-          <img src="images/logo.png" className="logo img-fluid" alt />
+          <img src="assets/images/logo.png" className="logo img-fluid" alt />
         </div>
         <div className="col-lg-4 col-md-6 col-12 mb-4">
           <h5 className="site-footer-title mb-3">Quick Links</h5>
