@@ -196,18 +196,13 @@ const News = () => {
             <h5 className="mt-5 mb-3">
             Some simple eco-friendly habits</h5>
             <div className="news-block news-block-two-col d-flex mt-4">
-              <div className="news-block-two-col-image-wrap">
-                <a href="news-detail.html">
-                  <img src="assets/images/news/africa-humanitarian-aid-doctor.jpg" className="news-image img-fluid" alt />
-                </a>
-              </div>
+              
               <div className="news-block-two-col-info">
                 <div className="news-block-title mb-2">
                   <h6><a href="news-detail.html" className="news-block-title-link">Water Intake Information </a></h6>
                 </div>
                 <div className="news-block-date">
                   <p>
-                    <i className="bi-calendar4 custom-icon me-1" />
                     Memberikan informasi atau kalkulator sederhana tentang berapa banyak air yang harus dikonsumsi seseorang dalam sehari berdasarkan berat badan
                   </p>
                 </div>
@@ -215,9 +210,7 @@ const News = () => {
             </div>
             <div className="news-block news-block-two-col d-flex mt-4">
               <div className="news-block-two-col-image-wrap">
-                <a href="news-detail.html">
-                  <img src="assets/images/news/close-up-happy-people-working-together.jpg" className="news-image img-fluid" alt />
-                </a>
+                
               </div>
               <div className="news-block-two-col-info">
                 <div className="news-block-title mb-2">
@@ -225,66 +218,20 @@ const News = () => {
                 </div>
                 <div className="news-block-date">
                   <p>
-                    <i className="bi-calendar4 custom-icon me-1" />
                     jika Anda ingin menjadi lebih peduli terhadap lingkungan, menggunakan tas belanja yang dapat digunakan kembali adalah pilihan yang bijak. Tas kain, terutama yang terbuat dari bahan ramah lingkungan seperti kanvas, adalah alternatif yang lebih baik daripada plastik. Selain membantu mengurangi sampah plastik, tas kain juga lebih tahan lama dan mampu membawa lebih banyak barang tanpa mudah robek. Dengan perawatan yang baik, tas kain ini bisa digunakan berulang kali dalam jangka waktu yang lama, menjadikannya pilihan yang praktis dan bertanggung jawab bagi lingkungan.
                   </p>
                 </div>
+                <div className="news-block-title mb-2">
+                  <h6><a href="news-detail.html" className="news-block-title-link">Refil</a></h6>
+                </div>
+                <div className="news-block-date">
+                  <p>
+                  Daripada terus membeli botol air sekali pakai, beralihlah ke botol logam yang dapat digunakan kembali dan pastikan untuk mengisinya dengan air sebelum Anda meninggalkan rumah. Selain itu, Anda bisa mencari toko grosir terdekat atau tempat pengisian ulang air minum untuk mengisi kembali kebutuhan sehari-hari Anda, seperti sabun atau sampo, ke dalam wadah yang dapat digunakan berulang kali. Dengan cara ini, Anda tidak hanya mengurangi limbah plastik tetapi juga mendukung gaya hidup yang lebih ramah lingkungan dan berkelanjutan.
+                  </p>
+                </div>
               </div>
+              
             </div>
-            <div className="category-block d-flex flex-column">
-              <h5 className="mb-3">Categories</h5>
-              <a href="#" className="category-block-link">
-                Drinking water
-                <span className="badge">20</span>
-              </a>
-              <a href="#" className="category-block-link">
-                Food Donation
-                <span className="badge">30</span>
-              </a>
-              <a href="#" className="category-block-link">
-                Children Education
-                <span className="badge">10</span>
-              </a>
-              <a href="#" className="category-block-link">
-                Poverty Development
-                <span className="badge">15</span>
-              </a>
-              <a href="#" className="category-block-link">
-                Clothing Donation
-                <span className="badge">20</span>
-              </a>
-            </div>
-            <div className="tags-block">
-              <h5 className="mb-3">Tags</h5>
-              <a href="#" className="tags-block-link">
-                Donation
-              </a>
-              <a href="#" className="tags-block-link">
-                Clothing
-              </a>
-              <a href="#" className="tags-block-link">
-                Food
-              </a>
-              <a href="#" className="tags-block-link">
-                Children
-              </a>
-              <a href="#" className="tags-block-link">
-                Education
-              </a>
-              <a href="#" className="tags-block-link">
-                Poverty
-              </a>
-              <a href="#" className="tags-block-link">
-                Clean Water
-              </a>
-            </div>
-            <form className="custom-form subscribe-form" action="#" method="post" role="form">
-              <h5 className="mb-4">Newsletter Form</h5>
-              <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*" className="form-control" placeholder="Email Address" required />
-              <div className="col-lg-12 col-12">
-                <button type="submit" className="form-control">Subscribe</button>
-              </div>
-            </form>
           </div>
         </div>
       </div>
