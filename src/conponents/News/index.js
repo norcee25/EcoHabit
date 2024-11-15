@@ -220,12 +220,12 @@ const News = () => {
               </div>
               <div className="news-block-two-col-info">
                 <div className="news-block-title mb-2">
-                  <h6><a href="news-detail.html" className="news-block-title-link">Mindfulness and Breathing Exercise</a></h6>
+                  <h6><a href="news-detail.html" className="news-block-title-link">Use Canvas Bags Instead of Plastic</a></h6>
                 </div>
                 <div className="news-block-date">
                   <p>
                     <i className="bi-calendar4 custom-icon me-1" />
-                    menyediakan panduan latihan mindfulness atau pernapasan yang bisa langsung diakses, seperti instruksi untuk teknik pernapasan sederhana atau meditasi singkat.
+                    jika Anda ingin menjadi lebih peduli terhadap lingkungan, menggunakan tas belanja yang dapat digunakan kembali adalah pilihan yang bijak. Tas kain, terutama yang terbuat dari bahan ramah lingkungan seperti kanvas, adalah alternatif yang lebih baik daripada plastik. Selain membantu mengurangi sampah plastik, tas kain juga lebih tahan lama dan mampu membawa lebih banyak barang tanpa mudah robek. Dengan perawatan yang baik, tas kain ini bisa digunakan berulang kali dalam jangka waktu yang lama, menjadikannya pilihan yang praktis dan bertanggung jawab bagi lingkungan.
                   </p>
                 </div>
               </div>
