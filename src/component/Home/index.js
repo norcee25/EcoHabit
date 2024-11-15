@@ -160,10 +160,6 @@ const Home = () => {
                       <i className="bi-check custom-text-box-icon me-2" />
                       Charity Theme
                     </li>
-                    <li className="custom-list-item d-flex">
-                      <i className="bi-check custom-text-box-icon me-2" />
-                      Semantic HTML
-                    </li>
                   </ul>
                 </div>
               </div>
