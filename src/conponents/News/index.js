@@ -43,8 +43,8 @@ const News = () => {
       <a className="navbar-brand" href="index.html">
         <img src="assets/images/logo.png" className="logo img-fluid" alt />
         <span>
-          Kind Heart Charity
-          <small>Non-profit Organization</small>
+          EcoHabit
+          <small>Universitas Klabat</small>
         </span>
       </a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
