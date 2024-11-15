@@ -193,7 +193,8 @@ const News = () => {
                 <i className="bi-search" />
               </button>
             </form>
-            <h5 className="mt-5 mb-3">Recent news</h5>
+            <h5 className="mt-5 mb-3">
+            Some simple eco-friendly habits</h5>
             <div className="news-block news-block-two-col d-flex mt-4">
               <div className="news-block-two-col-image-wrap">
                 <a href="news-detail.html">
