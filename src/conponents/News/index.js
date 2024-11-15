@@ -220,12 +220,12 @@ const News = () => {
               </div>
               <div className="news-block-two-col-info">
                 <div className="news-block-title mb-2">
-                  <h6><a href="news-detail.html" className="news-block-title-link">Volunteering Clean</a></h6>
+                  <h6><a href="news-detail.html" className="news-block-title-link">Mindfulness and Breathing Exercise</a></h6>
                 </div>
                 <div className="news-block-date">
                   <p>
                     <i className="bi-calendar4 custom-icon me-1" />
-                    October 24, 2036
+                    menyediakan panduan latihan mindfulness atau pernapasan yang bisa langsung diakses
                   </p>
                 </div>
               </div>
