@@ -106,7 +106,7 @@ const News = () => {
               </div>
               <div className="news-block-two-col-info">
                 <div className="news-block-title mb-2">
-                  <h6><a href="news-detail.html" className="news-block-title-link">Food donation area</a></h6>
+                  <h6><a href="news-detail.html" className="news-block-title-link">Use Canvas Bags Instead of Plastic</a></h6>
                 </div>
                 <div className="news-block-date">
                   <p>
@@ -124,7 +124,7 @@ const News = () => {
               </div>
               <div className="news-block-two-col-info">
                 <div className="news-block-title mb-2">
-                  <h6><a href="news-detail.html" className="news-block-title-link">Volunteering Clean</a></h6>
+                  <h6><a href="news-detail.html" className="news-block-title-link">Refill</a></h6>
                 </div>
                 <div className="news-block-date">
                   <p>
