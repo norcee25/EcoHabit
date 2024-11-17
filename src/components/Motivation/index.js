@@ -44,12 +44,12 @@ const Motivation = () => {
           <div className="container">
         <div className="row">
           <div className="col-lg-8 col-12 mx-auto">
-            <h2 className="mb-lg-3">j</h2>
+            <h2 className="mb-lg-3">and lastly..</h2>
             <div id="testimonial-carousel" className="carousel carousel-fade slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <div className="carousel-caption">
-                    <h4 className="carousel-title">h</h4>
+                    <h4 className="carousel-title">A healthy planet means a healthy you. When you choose fresh, local produce, walk instead of drive, or reduce waste, you’re not just healing the Earth—you’re healing yourself. TOGETHER, we can thrive!!</h4>
                   </div>
                 </div>
               </div>
