@@ -132,6 +132,16 @@ const News = () => {
                   Rather than relying on single-use plastic bottles, opt for a sturdy metal water bottle and make it a habit to fill it up before heading out. You can also find a nearby bulk store or refill station to replenish your everyday essentials, such as detergent or body wash, in reusable containers. This simple switch not only minimizes plastic waste but also encourages a sustainable lifestyle that benefits both you and the environment.
                   </p>
                 </div>
+                <div className="news-block-title mb-2">
+                  <h6><a href="news-detail.html" className="news-block-title-link">Reduce your electricity use</a></h6>
+                </div>
+                <div className="news-block-date">
+                  <p>
+                    
+                  Build eco-friendly habits by encouraging them to turn off the lights when they leave the room or turn off the television when they’re not watching it. Also, remind them not to stand in front of the refrigerator with the door open.
+                  </p>
+                </div>
+              
               </div>
             </div>
             <div className="category-block d-flex flex-column">
