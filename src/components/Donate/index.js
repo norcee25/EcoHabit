@@ -88,10 +88,10 @@ const Donate = () => {
         <div className="row">
           <div className="col-lg-6 col-12 mx-auto">
             <form className="custom-form donate-form" action="#" method="get" role="form">
-              <h3 className="mb-4">Make a donation</h3>
+              <h3 className="mb-4">Ecohabit</h3>
               <div className="row">
                 <div className="col-lg-12 col-12">
-                  <h5 className="mb-3">Donation Frequency</h5>
+                  <h5 className="mb-3">Ecohabit reminder</h5>
                 </div>
                 <div className="col-lg-6 col-6 form-check-group form-check-group-donation-frequency">
                   <div className="form-check form-check-radio">
@@ -116,7 +116,7 @@ const Donate = () => {
                   <div className="form-check form-check-radio">
                     <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
                     <label className="form-check-label" htmlFor="flexRadioDefault1">
-                      $10
+                      Cuci Tangan
                     </label>
                   </div>
                 </div>
@@ -124,7 +124,7 @@ const Donate = () => {
                   <div className="form-check form-check-radio">
                     <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
                     <label className="form-check-label" htmlFor="flexRadioDefault2">
-                      $15
+                      Jaga Jarak
                     </label>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ const Donate = () => {
                   <div className="form-check form-check-radio">
                     <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" />
                     <label className="form-check-label" htmlFor="flexRadioDefault3">
-                      $20
+                      Jangan buang sampah sembarangan
                     </label>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ const Donate = () => {
                   <div className="form-check form-check-radio">
                     <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" />
                     <label className="form-check-label" htmlFor="flexRadioDefault4">
-                      $30
+                      Matikan Listrik
                     </label>
                   </div>
                 </div>
@@ -148,7 +148,7 @@ const Donate = () => {
                   <div className="form-check form-check-radio">
                     <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5" />
                     <label className="form-check-label" htmlFor="flexRadioDefault5">
-                      $45
+                      Rajin menyiram tanaman
                     </label>
                   </div>
                 </div>
@@ -156,14 +156,14 @@ const Donate = () => {
                   <div className="form-check form-check-radio">
                     <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6" />
                     <label className="form-check-label" htmlFor="flexRadioDefault6">
-                      $50
+                      Menjaga lingkungan dan hati
                     </label>
                   </div>
                 </div>
                 <div className="col-lg-6 col-12 form-check-group">
                   <div className="input-group">
                     <span className="input-group-text" id="basic-addon1">$</span>
-                    <input type="text" className="form-control" placeholder="Custom amount" aria-label="Username" aria-describedby="basic-addon1" />
+                    <input type="text" className="form-control" placeholder="Custom reminder" aria-label="Username" aria-describedby="basic-addon1" />
                   </div>
                 </div>
                 <div className="col-lg-12 col-12">
@@ -234,7 +234,7 @@ const Donate = () => {
           </p>
           <p className="text-white d-flex mt-3">
             <i className="bi-geo-alt me-2" />
-            Akershusstranda 20, 0150 Oslo, Norway
+            Universitas Klabat
           </p>
           <a href="#" className="custom-btn btn mt-3">Get Direction</a>
         </div>

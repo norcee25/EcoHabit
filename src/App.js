@@ -1,9 +1,8 @@
-import Donate from "./components/Donate";
+import Motivation from "./components/Motivation";
 
 const App = () => {
   return (
-    <Donate /> 
+    <Motivation/>
   )
 }
-
 export default App;
