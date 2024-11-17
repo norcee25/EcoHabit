@@ -119,7 +119,7 @@ const News = () => {
             <div className="news-block news-block-two-col d-flex mt-4">
               <div className="news-block-two-col-image-wrap">
                 <a href="news-detail.html">
-                  <img src="assets/images/news/close-up-happy-people-working-together.jpg" className="news-image img-fluid" alt />
+                  
                 </a>
               </div>
               <div className="news-block-two-col-info">
@@ -128,8 +128,8 @@ const News = () => {
                 </div>
                 <div className="news-block-date">
                   <p>
-                    <i className="bi-calendar4 custom-icon me-1" />
-                    October 24, 2036
+                    
+                  Rather than relying on single-use plastic bottles, opt for a sturdy metal water bottle and make it a habit to fill it up before heading out. You can also find a nearby bulk store or refill station to replenish your everyday essentials, such as detergent or body wash, in reusable containers. This simple switch not only minimizes plastic waste but also encourages a sustainable lifestyle that benefits both you and the environment.
                   </p>
                 </div>
               </div>
