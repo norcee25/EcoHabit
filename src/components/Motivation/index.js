@@ -7,12 +7,12 @@ const Motivation = () => {
           <div className="container">
         <div className="row">
           <div className="col-lg-8 col-12 mx-auto">
-            <h2 className="mb-lg-3">Happy Customers</h2>
+            <h2 className="mb-lg-3">HEALTH MOTIVATION!</h2>
             <div id="testimonial-carousel" className="carousel carousel-fade slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <div className="carousel-caption">
-                    <h4 className="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
+                    <h4 className="carousel-title">Your body is the only place you have to live—nourish it with good food, move it with love, and rest it with care. A healthier you is a happier you!</h4>
                   </div>
                 </div>
               </div>
@@ -25,12 +25,12 @@ const Motivation = () => {
           <div className="container">
         <div className="row">
           <div className="col-lg-8 col-12 mx-auto">
-            <h2 className="mb-lg-3">Happy Customers</h2>
+            <h2 className="mb-lg-3">o</h2>
             <div id="testimonial-carousel" className="carousel carousel-fade slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <div className="carousel-caption">
-                    <h4 className="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
+                    <h4 className="carousel-title">h</h4>
                   </div>
                 </div>
               </div>
@@ -43,12 +43,12 @@ const Motivation = () => {
           <div className="container">
         <div className="row">
           <div className="col-lg-8 col-12 mx-auto">
-            <h2 className="mb-lg-3">Happy Customers</h2>
+            <h2 className="mb-lg-3">j</h2>
             <div id="testimonial-carousel" className="carousel carousel-fade slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <div className="carousel-caption">
-                    <h4 className="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
+                    <h4 className="carousel-title">h</h4>
                   </div>
                 </div>
               </div>
