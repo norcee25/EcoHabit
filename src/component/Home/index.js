@@ -120,15 +120,15 @@ const Home = () => {
           </div>
           <div className="col-lg-6 col-12">
             <div className="custom-text-box">
-              <h2 className="mb-2">Our Story</h2>
+              <h2 className="mb-2">About</h2>
               <h5 className="mb-3">EcoHabit</h5>
-              <p className="mb-0">This is a Bootstrap 5.2.2 CSS template for charity organization websites. You can feel free to use it. Please tell your friends about TemplateMo website. Thank you. HTML CSS files updated on 20 Oct 2022.</p>
+              <p className="mb-0">Ecohabit is a lifestyle or habit focused on healthy living. It includes daily actions such as reducing plastic use, conserving energy and water, using environmentally friendly transportation, and recycling. The goal is to reduce the negative impact on the planet and promote a healthier, more sustainable life.</p>
             </div>
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="custom-text-box mb-lg-0">
-                  <h5 className="mb-3">Our Mission</h5>
-                  <p>Sed leo nisl, posuere at molestie ac, suscipit auctor quis metus</p>
+                  <h5 className="mb-3">Mission Of EcoHabit</h5>
+                  <p>Ecohabit aims to inspire individuals to adopt sustainable practices that benefit both the environment and personal health. By making intentional changes in daily habits—like reducing waste, conserving resources, and choosing eco-friendly options—Ecohabit seeks to contribute to a healthier planet and a more sustainable future for all.</p>
                   <ul className="custom-list mt-2">
                     <li className="custom-list-item d-flex">
                       <i className="bi-check custom-text-box-icon me-2" />
@@ -140,18 +140,13 @@ const Home = () => {
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="custom-text-box d-flex flex-wrap d-lg-block mb-lg-0">
                   <div className="counter-thumb"> 
-                    <div className="d-flex">
-                      <span className="counter-number" data-from={1} data-to={2009} data-speed={1000} />
-                      <span className="counter-number-text" />
-                    </div>
-                    <span className="counter-text">Founded</span>
                   </div> 
                   <div className="counter-thumb mt-4"> 
                     <div className="d-flex">
-                      <span className="counter-number" data-from={1} data-to={120} data-speed={1000} />
-                      <span className="counter-number-text">B</span>
+                      <span className="counter-number" data-from={1} data-to={100} data-speed={900} />
+                      <span className="counter-number-text">Vission </span>
                     </div>
-                    <span className="counter-text">Donations</span>
+                    <span className="counter-text">To create a global community where sustainable living is the norm, and every individual contributes to a healthier, more balanced planet. Ecohabit envisions a future where conscious choices lead to a world with reduced environmental impact, enhanced well-being, and a more sustainable lifestyle for generations to come.</span>
                   </div> 
                 </div>
               </div>
