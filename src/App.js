@@ -1,8 +1,8 @@
-import Newsdetail from "./components/Newsdetail";
+import HealthTips from "./components/HealthTips";
 
 const App = () => {
     return (
-        <Newsdetail />
+        <HealthTips />
     );
 };
 
