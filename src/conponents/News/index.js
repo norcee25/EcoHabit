@@ -102,9 +102,7 @@ const News = () => {
             <h5 className="mt-5 mb-3">Recent news</h5>
             <div className="news-block news-block-two-col d-flex mt-4">
               <div className="news-block-two-col-image-wrap">
-                <a href="news-detail.html">
-                  <img src="assets/images/news/africa-humanitarian-aid-doctor.jpg" className="news-image img-fluid" alt />
-                </a>
+                
               </div>
               <div className="news-block-two-col-info">
                 <div className="news-block-title mb-2">
@@ -112,8 +110,8 @@ const News = () => {
                 </div>
                 <div className="news-block-date">
                   <p>
-                    <i className="bi-calendar4 custom-icon me-1" />
-                    October 16, 2036
+                    
+                    If you want to become more environmentally conscious, using reusable shopping bags is a wise choice. Cloth bags, especially those made from eco-friendly materials like canvas, are a better alternative to plastic. In addition to helping reduce plastic waste, cloth bags are more durable and capable of carrying more items without tearing easily. With proper care, these bags can be reused repeatedly over a long period, making them a practical and responsible choice for the environment.
                   </p>
                 </div>
               </div>
