@@ -1,8 +1,13 @@
 import Home from "./component/Home";
+import Navbar from "./component/Navbar";
 
 const App = () => {
   return (
-  <Home/>
-  )
+    <>
+      <Home />
+      <Navbar />
+    </>
+  );
 }
-export default App; 
+
+export default App;

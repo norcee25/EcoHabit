@@ -16,25 +16,6 @@ const Home = () => {
             </a>
           </p>
         </div>
-        <div className="col-lg-3 col-12 ms-auto d-lg-block d-none">
-          <ul className="social-icon">
-            <li className="social-icon-item">
-              <a href="#" className="social-icon-link bi-twitter" />
-            </li>
-            <li className="social-icon-item">
-              <a href="#" className="social-icon-link bi-facebook" />
-            </li>
-            <li className="social-icon-item">
-              <a href="#" className="social-icon-link bi-instagram" />
-            </li>
-            <li className="social-icon-item">
-              <a href="#" className="social-icon-link bi-youtube" />
-            </li>
-            <li className="social-icon-item">
-              <a href="#" className="social-icon-link bi-whatsapp" />
-            </li>
-          </ul>
-        </div>
       </div>
     </div>
   </header>
@@ -59,23 +40,16 @@ const Home = () => {
             <a className="nav-link click-scroll" href="#section_2">About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link click-scroll" href="#section_3">Causes</a>
+            <a className="nav-link click-scroll" href="#section_3">Health Tips</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link click-scroll" href="#section_4">Volunteer</a>
+            <a className="nav-link click-scroll" href="#section_4">Team</a>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link click-scroll dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
-            <ul className="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-              <li><a className="dropdown-item" href="news.html">News Listing</a></li>
-              <li><a className="dropdown-item" href="news-detail.html">News Detail</a></li>
-            </ul>
+            <a className="nav-link click-scroll " href="#section_5" >News</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link click-scroll" href="#section_6">Contact</a>
-          </li>
-          <li className="nav-item ms-3">
-            <a className="nav-link custom-btn custom-border-btn btn" href="donate.html">Donate</a>
+            <a className="nav-link click-scroll" href="#section_6">Motivation</a>
           </li>
         </ul>
       </div>
@@ -189,37 +163,27 @@ const Home = () => {
     <section className="about-section section-padding">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-5 col-12">
-            <img src="assets/images/portrait-volunteer-who-organized-donations-charity.jpg" className="about-image ms-lg-auto bg-light shadow-lg img-fluid" alt />
-          </div>
-          <div className="col-lg-5 col-md-7 col-12">
-            <div className="custom-text-block">
-              <h2 className="mb-0">Sandy Chan</h2>
-              <p className="text-muted mb-lg-4 mb-md-4">Co-Founding Partner</p>
-              <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito Professional charity theme based</p>
-              <p>You are not allowed to redistribute this template ZIP file on any other template collection website. Please contact TemplateMo for more information.</p>
-              <ul className="social-icon mt-4">
-                <li className="social-icon-item">
-                  <a href="#" className="social-icon-link bi-twitter" />
-                </li>
-                <li className="social-icon-item">
-                  <a href="#" className="social-icon-link bi-facebook" />
-                </li>
-                <li className="social-icon-item">
-                  <a href="#" className="social-icon-link bi-instagram" />
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
     </section>
+<section className="cta-section section-padding section-bg">
+  <div className="container">
+    <div className="row justify-content-center align-items-center">
+      <div className="col-lg-5 col-12 ms-auto">
+        <h2 className="mb-0">Make an impact. <br /> Save lives.</h2>
+      </div>
+      <div className="col-lg-5 col-12">
+        <a href="#section_4" className="custom-btn btn smoothscroll">Become a part of our Team</a>
+      </div>
+    </div>
+  </div>
+</section>
 
     <section className="section-padding" id="section_3">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-12 text-center mb-4">
-            <h2>Our Causes</h2>
+            <h2>Health Tips</h2>
           </div>
           <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
             <div className="custom-block-wrap">
@@ -261,30 +225,25 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-12">
-            <h2 className="text-white mb-4">Volunteer</h2>
-            <form className="custom-form volunteer-form mb-5 mb-lg-0" action="#" method="post" role="form">
-              <h3 className="mb-4">Become a volunteer today</h3>
-              <div className="row">
-                <div className="col-lg-6 col-12">
-                  <input type="text" name="volunteer-name" id="volunteer-name" className="form-control" placeholder="Jack Doe" required />
-                </div>
-                <div className="col-lg-6 col-12">    
-                  <input type="email" name="volunteer-email" id="volunteer-email" pattern="[^ @]*@[^ @]*" className="form-control" placeholder="Jackdoe@gmail.com" required />
-                </div>
-                <div className="col-lg-6 col-12">
-                  <input type="text" name="volunteer-subject" id="volunteer-subject" className="form-control" placeholder="Subject" required />
-                </div>
-                <div className="col-lg-6 col-12">
-                  <div className="input-group input-group-file">
-                    <input type="file" className="form-control" id="inputGroupFile02" />
-                    <label className="input-group-text" htmlFor="inputGroupFile02">Upload your CV</label>
-                    <i className="bi-cloud-arrow-up ms-auto" />
-                  </div>
-                </div>
-              </div>
-              <textarea name="volunteer-message" rows={3} className="form-control" id="volunteer-message" placeholder="Comment (Optional)" defaultValue={""} />
-              <button type="submit" className="form-control">Submit</button>
-            </form>
+            <img src="assets/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg" className="volunteer-image img-fluid" alt />
+            <div className="custom-block-body text-center">
+              <h4 className="text-white mt-lg-3 mb-lg-3">About Volunteering</h4>
+              <p className="text-white">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito Professional charity theme based</p>
+            </div>
+          </div>
+          <div className="col-lg-6 col-12">
+            <img src="assets/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg" className="volunteer-image img-fluid" alt />
+            <div className="custom-block-body text-center">
+              <h4 className="text-white mt-lg-3 mb-lg-3">About Volunteering</h4>
+              <p className="text-white">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito Professional charity theme based</p>
+            </div>
+          </div>
+          <div className="col-lg-6 col-12">
+            <img src="assets/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg" className="volunteer-image img-fluid" alt />
+            <div className="custom-block-body text-center">
+              <h4 className="text-white mt-lg-3 mb-lg-3">About Volunteering</h4>
+              <p className="text-white">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito Professional charity theme based</p>
+            </div>
           </div>
           <div className="col-lg-6 col-12">
             <img src="assets/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg" className="volunteer-image img-fluid" alt />
@@ -483,8 +442,12 @@ const Home = () => {
         </div>
       </div>
     </section>
-    <section className="testimonial-section section-padding section-bg">
+
+    <section className="contact-section section-padding" id="section_6">
       <div className="container">
+        <div className="row">
+          <div className="col-lg-5 col-12 mx-auto">
+          <div className="container">
         <div className="row">
           <div className="col-lg-8 col-12 mx-auto">
             <h2 className="mb-lg-3">Happy Customers</h2>
@@ -493,100 +456,49 @@ const Home = () => {
                 <div className="carousel-item active">
                   <div className="carousel-caption">
                     <h4 className="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
-                    <small className="carousel-name"><span className="carousel-name-title">Maria</span>, Boss</small>
                   </div>
                 </div>
-                <div className="carousel-item">
-                  <div className="carousel-caption">
-                    <h4 className="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit auctor mauris quis metus tempor orci</h4>
-                    <small className="carousel-name"><span className="carousel-name-title">Thomas</span>, Partner</small>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="carousel-caption">
-                    <h4 className="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
-                    <small className="carousel-name"><span className="carousel-name-title">Jane</span>, Advisor</small>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="carousel-caption">
-                    <h4 className="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit auctor mauris quis metus tempor orci</h4>
-                    <small className="carousel-name"><span className="carousel-name-title">Bob</span>, Entreprenuer</small>
-                  </div>
-                </div>
-                <ol className="carousel-indicators">
-                  <li data-bs-target="#testimonial-carousel" data-bs-slide-to={0} className="active">
-                    <img src="assets/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg" className="img-fluid rounded-circle avatar-image" alt="avatar" />
-                  </li>
-                  <li data-bs-target="#testimonial-carousel" data-bs-slide-to={1} className>
-                    <img src="assets/images/avatar/portrait-young-redhead-bearded-male.jpg" className="img-fluid rounded-circle avatar-image" alt="avatar" />
-                  </li>
-                  <li data-bs-target="#testimonial-carousel" data-bs-slide-to={2} className>
-                    <img src="assets/images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg" className="img-fluid rounded-circle avatar-image" alt="avatar" />
-                  </li>
-                  <li data-bs-target="#testimonial-carousel" data-bs-slide-to={3} className>
-                    <img src="assets/images/avatar/studio-portrait-emotional-happy-funny.jpg" className="img-fluid rounded-circle avatar-image" alt="avatar" />
-                  </li>
-                </ol>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section className="contact-section section-padding" id="section_6">
-      <div className="container">
+          </div>
+          <div className="col-lg-5 col-12 mx-auto">
+          <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-12 ms-auto mb-5 mb-lg-0">
-            <div className="contact-info-wrap">
-              <h2>Get in touch</h2>
-              <div className="contact-image-wrap d-flex flex-wrap">
-                <img src="assets/images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg" className="img-fluid avatar-image" alt />
-                <div className="d-flex flex-column justify-content-center ms-3">
-                  <p className="mb-0">Clara Barton</p>
-                  <p className="mb-0"><strong>HR &amp; Office Manager</strong></p>
+          <div className="col-lg-8 col-12 mx-auto">
+            <h2 className="mb-lg-3">Happy Customers</h2>
+            <div id="testimonial-carousel" className="carousel carousel-fade slide" data-bs-ride="carousel">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <div className="carousel-caption">
+                    <h4 className="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
+                  </div>
                 </div>
-              </div>
-              <div className="contact-info">
-                <h5 className="mb-3">Contact Infomation</h5>
-                <p className="d-flex mb-2">
-                  <i className="bi-geo-alt me-2" />
-                  Akershusstranda 20, 0150 Oslo, Norway
-                </p>
-                <p className="d-flex mb-2">
-                  <i className="bi-telephone me-2" />
-                  <a href="tel: 120-240-9600">
-                    120-240-9600
-                  </a>
-                </p>
-                <p className="d-flex">
-                  <i className="bi-envelope me-2" />
-                  <a href="mailto:info@yourgmail.com">
-                    donate@charity.org
-                  </a>
-                </p>
-                <a href="#" className="custom-btn btn mt-3">Get Direction</a>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+          </div>
           <div className="col-lg-5 col-12 mx-auto">
-            <form className="custom-form contact-form" action="#" method="post" role="form">
-              <h2>Contact form</h2>
-              <p className="mb-4">Or, you can just send an email:
-                <a href="#">info@charity.org</a>
-              </p>
-              <div className="row">
-                <div className="col-lg-6 col-md-6 col-12">
-                  <input type="text" name="first-name" id="first-name" className="form-control" placeholder="Jack" required />
-                </div>
-                <div className="col-lg-6 col-md-6 col-12">
-                  <input type="text" name="last-name" id="last-name" className="form-control" placeholder="Doe" required />
+          <div className="container">
+        <div className="row">
+          <div className="col-lg-8 col-12 mx-auto">
+            <h2 className="mb-lg-3">Happy Customers</h2>
+            <div id="testimonial-carousel" className="carousel carousel-fade slide" data-bs-ride="carousel">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <div className="carousel-caption">
+                    <h4 className="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
+                  </div>
                 </div>
               </div>
-              <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" className="form-control" placeholder="Jackdoe@gmail.com" required />
-              <textarea name="message" rows={5} className="form-control" id="message" placeholder="What can we help you?" defaultValue={""} />
-              <button type="submit" className="form-control">Send Message</button>
-            </form>
+            </div>
+          </div>
+        </div>
+      </div>
           </div>
         </div>
       </div>
