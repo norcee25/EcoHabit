@@ -25,12 +25,13 @@ const Motivation = () => {
           <div className="container">
         <div className="row">
           <div className="col-lg-8 col-12 mx-auto">
-            <h2 className="mb-lg-3">o</h2>
+            <h2 className="mb-lg-3">ENVIRONMENTAL CARE</h2>
             <div id="testimonial-carousel" className="carousel carousel-fade slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <div className="carousel-caption">
-                    <h4 className="carousel-title">h</h4>
+                    <h4 className="carousel-title">The Earth doesn’t need one perfect environmentalist, it needs millions of imperfect ones trying their best. Every small effort you make—recycling, saving water, or planting a tree—creates a ripple of hope for the FUTURE.
+                    </h4>
                   </div>
                 </div>
               </div>
