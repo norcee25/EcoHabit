@@ -19,7 +19,7 @@ const Home = () => {
         <div className="col-lg-8 col-12 d-flex flex-wrap">
           <p className="d-flex me-4 mb-0">
             <i className="bi-geo-alt me-2" />
-            Universitas Klabat
+            {home.title2}
           </p>
           <p className="d-flex mb-0">
             <i className="bi-envelope me-2" />
@@ -36,8 +36,8 @@ const Home = () => {
       <a className="navbar-brand" href="index.html">
         <img src="assets/images/logo.png" className="logo img-fluid" alt="Kind Heart Charity" />
         <span>
-          EcoHabit
-          <small>Front End</small>
+          {home.title1}
+          <small>{home.title3}</small>
         </span>
       </a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
