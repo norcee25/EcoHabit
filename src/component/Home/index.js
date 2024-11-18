@@ -1,4 +1,16 @@
+import { getDatabase, ref, onValue } from "firebase/database";
+import { useEffect,useState } from "react";
+
 const Home = () => {
+    const [home, setHome ] = useState ({})
+    useEffect (() => {
+        const db = getDatabase();
+        const homeRef = ref(db, "home");
+        onValue(homeRef, (snapshot) => {
+            const data = snapshot.val();
+            setHome(data);
+        });
+    }, []);
     return (
         <div>
   <header className="site-header">
@@ -12,7 +24,7 @@ const Home = () => {
           <p className="d-flex mb-0">
             <i className="bi-envelope me-2" />
             <a href="mailto:info@company.com">
-              Klabat@company.com
+             {home.Title}
             </a>
           </p>
         </div>
@@ -130,10 +142,6 @@ const Home = () => {
                   <h5 className="mb-3">Mission Of EcoHabit</h5>
                   <p>Ecohabit aims to inspire individuals to adopt sustainable practices that benefit both the environment and personal health. By making intentional changes in daily habits—like reducing waste, conserving resources, and choosing eco-friendly options—Ecohabit seeks to contribute to a healthier planet and a more sustainable future for all.</p>
                   <ul className="custom-list mt-2">
-                    <li className="custom-list-item d-flex">
-                      <i className="bi-check custom-text-box-icon me-2" />
-                      Charity Theme
-                    </li>
                   </ul>
                 </div>
               </div>
