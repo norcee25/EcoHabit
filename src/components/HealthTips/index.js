@@ -1,19 +1,31 @@
-const HealthTips= () => {
+import { getDatabase, ref, onValue } from "firebase/database";
+import { useEffect,useState } from "react";
+
+  const HealthTips = () => {
+    const [health, setHealthTips ] = useState ({})
+    useEffect (() => {
+        const db = getDatabase();
+        const healthRef = ref(db, "health");
+        onValue(healthRef, (snapshot) => {
+            const data = snapshot.val();
+            setHealthTips(data);
+        });
+    }, []);
   return (
     <div>
     <section className="section-padding" id="section_3">
     <div className="container">
       <div className="row">
         <div className="col-lg-12 col-12 text-center mb-4">
-          <h2>Health Tips</h2>
+          <h2> {health.titlee}</h2>
         </div>
         <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
           <div className="custom-block-wrap">
             <img src="assets/images/causes/Farmers Market.jpeg" className="custom-block-image img-fluid" alt />
             <div className="custom-block">
               <div className="custom-block-body">
-                <h5 className="mb-3">Adopt a Plant-Based Diet</h5>
-                <p>Eating more plant-based foods improves heart health, boosts energy, and cuts your carbon footprint by reducing greenhouse gas emissions from meat production.</p>
+                <h5 className="mb-3">{health.title1}</h5>
+                <p>{health.sub1}</p>
               </div>
             </div>
           </div>
@@ -23,8 +35,8 @@ const HealthTips= () => {
             <img src="assets/images/causes/running.jpeg" className="custom-block-image img-fluid" alt />
             <div className="custom-block">
               <div className="custom-block-body">
-                <h5 className="mb-3">Prioritize Walking and Cycling</h5>
-                <p>Walking or cycling improves fitness, reduces stress, and lowers transportation-related CO₂ emissions, promoting a healthier planet.</p>
+                <h5 className="mb-3">{health.title2}</h5>
+                <p>{health.sub2}</p>
               </div>
             </div>
           </div>
@@ -34,8 +46,8 @@ const HealthTips= () => {
             <img src="assets/images/causes/friendly.jpeg" className="custom-block-image img-fluid" alt />
             <div className="custom-block">
               <div className="custom-block-body">
-                <h5 className="mb-3">Go Natural</h5>
-                <p>Use eco-friendly products to protect your skin and keep harmful chemicals out of the environment.</p>
+                <h5 className="mb-3">{health.title3}</h5>
+                <p>{health.sub3}</p>
               </div>
             </div>
           </div>
