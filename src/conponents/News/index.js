@@ -1,105 +1,47 @@
+import { getDatabase, ref, onValue } from "firebase/database";
+import { useEffect,useState } from "react";
 const News = () => {
+  const [news, setNews ] = useState ({})
+  useEffect (() => {
+      const db = getDatabase();
+      const newsRef = ref(db, "news");
+      onValue(newsRef, (snapshot) => {
+          const data = snapshot.val();
+          setNews(data);
+      });
+  }, []);
     return (
 <section className="news-section section-padding" id="section_5">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-12 mb-5">
-            <h2>Latest News</h2>
+            <h2>{news.titleeee}</h2>
           </div>
           <div className="col-lg-7 col-12">
             <div className="news-block">
               <div className="news-block-top">
-                <a href="news-detail.html">
-                  <img src="assets/images/news/medium-shot-volunteers-with-clothing-donations.jpg" className="news-image img-fluid" alt />
-                </a>
-                <div className="news-category-block">
-                  <a href="#" className="category-block-link">
-                    Lifestyle,
-                  </a>
-                  <a href="#" className="category-block-link">
-                    Clothing Donation
-                  </a>
-                </div>
-              </div>
-              <div className="news-block-info">
-                <div className="d-flex mt-2">
-                  <div className="news-block-date">
-                    <p>
-                      <i className="bi-calendar4 custom-icon me-1" />
-                      October 12, 2036
-                    </p>
-                  </div>
-                  <div className="news-block-author mx-5">
-                    <p>
-                      <i className="bi-person custom-icon me-1" />
-                      By Admin
-                    </p>
-                  </div>
-                  <div className="news-block-comment">
-                    <p>
-                      <i className="bi-chat-left custom-icon me-1" />
-                      32 Comments
-                    </p>
-                  </div>
-                </div>
-                <div className="news-block-title mb-2">
-                  <h4><a href="news-detail.html" className="news-block-title-link">Clothing donation to urban area</a></h4>
-                </div>
-                <div className="news-block-body">
-                  <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito Professional charity theme based on Bootstrap</p>
-                </div>
+
+                  <img src="assets/images/news/canvas1.png" className="news-image img-fluid" alt />
+              
+
               </div>
             </div>
             <div className="news-block mt-3">
               <div className="news-block-top">
-                <a href="news-detail.html">
-                  <img src="assets/images/news/medium-shot-people-collecting-foodstuff.jpg" className="news-image img-fluid" alt />
-                </a>
-                <div className="news-category-block">
-                  <a href="#" className="category-block-link">
-                    Food,
-                  </a>
-                  <a href="#" className="category-block-link">
-                    Donation,
-                  </a>
-                  <a href="#" className="category-block-link">
-                    Caring
-                  </a>
-                </div>
+ 
+                  <img src="assets/images/news/bottle.png" className="news-image img-fluid" alt />
+                
               </div>
-              <div className="news-block-info">
-                <div className="d-flex mt-2">
-                  <div className="news-block-date">
-                    <p>
-                      <i className="bi-calendar4 custom-icon me-1" />
-                      October 20, 2036
-                    </p>
-                  </div>
-                  <div className="news-block-author mx-5">
-                    <p>
-                      <i className="bi-person custom-icon me-1" />
-                      By Admin
-                    </p>
-                  </div>
-                  <div className="news-block-comment">
-                    <p>
-                      <i className="bi-chat-left custom-icon me-1" />
-                      35 Comments
-                    </p>
-                  </div>
-                </div>
-                <div className="news-block-title mb-2">
-                  <h4><a href="news-detail.html" className="news-block-title-link">Food donation area</a></h4>
-                </div>
-                <div className="news-block-body">
-                  <p>Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus elementum, tempor risus vel, condimentum orci</p>
-                </div>
+              <div className="news-block-top">
+ 
+                  <img src="assets/images/news/energy.png" className="news-image img-fluid" alt />
+                
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-12 mx-auto">
 
-            <h5 className="mt-5 mb-3">Recent news</h5>
+            <h5 className="mt-5 mb-3">{news.title5}</h5>
             <div className="news-block news-block-two-col d-flex mt-4">
               <div className="news-block-two-col-image-wrap">
                 
@@ -111,7 +53,7 @@ const News = () => {
                 <div className="news-block-date">
                   <p>
                     
-                    If you want to become more environmentally conscious, using reusable shopping bags is a wise choice. Cloth bags, especially those made from eco-friendly materials like canvas, are a better alternative to plastic. In addition to helping reduce plastic waste, cloth bags are more durable and capable of carrying more items without tearing easily. With proper care, these bags can be reused repeatedly over a long period, making them a practical and responsible choice for the environment.
+                  If you want to become more environmentally conscious, using reusable shopping bags is a wise choice. Cloth bags, especially those made from eco-friendly materials like canvas, are a better alternative to plastic. In addition to helping reduce plastic waste, cloth bags are more durable and capable of carrying more items without tearing easily. With proper care, these bags can be reused repeatedly over a long period, making them a practical and responsible choice for the environment. By choosing reusable bags, you are actively contributing to the reduction of single-use plastics and promoting a sustainable lifestyle.
                   </p>
                 </div>
               </div>
@@ -129,7 +71,7 @@ const News = () => {
                 <div className="news-block-date">
                   <p>
                     
-                  Rather than relying on single-use plastic bottles, opt for a sturdy metal water bottle and make it a habit to fill it up before heading out. You can also find a nearby bulk store or refill station to replenish your everyday essentials, such as detergent or body wash, in reusable containers. This simple switch not only minimizes plastic waste but also encourages a sustainable lifestyle that benefits both you and the environment.
+                  Rather than relying on single-use plastic bottles, opt for a sturdy metal water bottle and make it a habit to fill it up before heading out. You can also find a nearby bulk store or refill station to replenish your everyday essentials, such as detergent or body wash, in reusable containers. This simple switch not only minimizes plastic waste but also encourages a sustainable lifestyle that benefits both you and the environment. Metal water bottles are highly durable, keeping your beverages at the desired temperature for extended periods. Choosing bulk stores can also help you save money as you only pay for the product, not the packaging. Additionally, purchasing items in bulk reduces the demand for single-use plastic packaging, indirectly supporting industries that prioritize sustainable practices. Small habits, such as refilling containers, can inspire those around you to follow suit, creating a ripple effect of positive change. 
                   </p>
                 </div>
                 <div className="news-block-title mb-2">
@@ -143,53 +85,6 @@ const News = () => {
                 </div>
               
               </div>
-            </div>
-            <div className="category-block d-flex flex-column">
-              <h5 className="mb-3">Categories</h5>
-              <a href="#" className="category-block-link">
-                Drinking water
-                <span className="badge">20</span>
-              </a>
-              <a href="#" className="category-block-link">
-                Food Donation
-                <span className="badge">30</span>
-              </a>
-              <a href="#" className="category-block-link">
-                Children Education
-                <span className="badge">10</span>
-              </a>
-              <a href="#" className="category-block-link">
-                Poverty Development
-                <span className="badge">15</span>
-              </a>
-              <a href="#" className="category-block-link">
-                Clothing Donation
-                <span className="badge">20</span>
-              </a>
-            </div>
-            <div className="tags-block">
-              <h5 className="mb-3">Tags</h5>
-              <a href="#" className="tags-block-link">
-                Donation
-              </a>
-              <a href="#" className="tags-block-link">
-                Clothing
-              </a>
-              <a href="#" className="tags-block-link">
-                Food
-              </a>
-              <a href="#" className="tags-block-link">
-                Children
-              </a>
-              <a href="#" className="tags-block-link">
-                Education
-              </a>
-              <a href="#" className="tags-block-link">
-                Poverty
-              </a>
-              <a href="#" className="tags-block-link">
-                Clean Water
-              </a>
             </div>
           </div>
         </div>
