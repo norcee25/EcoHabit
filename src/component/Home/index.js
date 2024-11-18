@@ -46,22 +46,22 @@ const Home = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <a className="nav-link click-scroll" href="#top">Home</a>
+            <a className="nav-link click-scroll" href="#top">{home.nav1}</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link click-scroll" href="#section_2">About</a>
+            <a className="nav-link click-scroll" href="#section_2">{home.nav2}</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link click-scroll" href="#section_3">Health Tips</a>
+            <a className="nav-link click-scroll" href="#section_3">{home.nav3}</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link click-scroll" href="#section_4">Team</a>
+            <a className="nav-link click-scroll" href="#section_4">{home.nav4}</a>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link click-scroll " href="#section_5" >News</a>
+            <a className="nav-link click-scroll " href="#section_5" >{home.nav5}</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link click-scroll" href="#section_6">Motivation</a>
+            <a className="nav-link click-scroll" href="#section_6">{home.nav6}</a>
           </li>
         </ul>
       </div>
