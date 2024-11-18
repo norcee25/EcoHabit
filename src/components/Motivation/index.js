@@ -1,4 +1,17 @@
+import { getDatabase, ref, onValue } from "firebase/database";
+import { useEffect,useState } from "react";
+
+
 const Motivation = () => {
+        const [motivation, setMotivation ] = useState ({})
+        useEffect (() => {
+            const db = getDatabase();
+            const motivationRef = ref(db, "motivation");
+            onValue(motivationRef, (snapshot) => {
+                const data = snapshot.val();
+                setMotivation(data);
+            });
+        }, []);
     return (
 <section className="contact-section section-padding" id="section_6">
       <div className="container">
@@ -7,7 +20,7 @@ const Motivation = () => {
           <div className="container">
         <div className="row">
           <div className="col-lg-8 col-12 mx-auto">
-            <h2 className="mb-lg-3">HEALTH MOTIVATION!</h2>
+            <h2 className="mb-lg-3">{motivation.titleee}</h2>
             <div id="testimonial-carousel" className="carousel carousel-fade slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
