@@ -17,7 +17,7 @@ const Footer = () => {
     <div className="container">
       <div className="row">
         <div className="col-lg-3 col-12 mb-4">
-          <img src="assets/images/logo.png" className="logo img-fluid" alt />
+          <img src= {footer.img1|| ""}className="logo img-fluid" alt />
         </div>
         <div className="col-lg-4 col-md-6 col-12 mb-4">
           <ul className="footer-menu">
