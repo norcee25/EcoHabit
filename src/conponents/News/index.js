@@ -21,7 +21,7 @@ const News = () => {
             <div className="news-block">
               <div className="news-block-top">
 
-                  <img src={news.image1 || ""} alt />
+                  <img src={news.image9 || ""} alt />
               
 
               </div>
@@ -34,7 +34,7 @@ const News = () => {
               </div>
               <div className="news-block-top">
  
-                  <img src="assets/images/news/energy.png" className="news-image img-fluid" alt />
+                  <img src={news.image8 || ""} className="news-image img-fluid" alt />
                 
               </div>
             </div>
@@ -53,7 +53,7 @@ const News = () => {
                 <div className="news-block-date">
                   <p>
                     
-                  If you want to become more environmentally conscious, using reusable shopping bags is a wise choice. Cloth bags, especially those made from eco-friendly materials like canvas, are a better alternative to plastic. In addition to helping reduce plastic waste, cloth bags are more durable and capable of carrying more items without tearing easily. With proper care, these bags can be reused repeatedly over a long period, making them a practical and responsible choice for the environment. By choosing reusable bags, you are actively contributing to the reduction of single-use plastics and promoting a sustainable lifestyle.
+                  If you want to become more environmentally conscious, using reusable shopping bags is a wise choice. Cloth bags, especially those made from eco-friendly materials like canvas, are a better alternative to plastic. In addition to helping reduce plastic waste, cloth bags are more durable and capable of carrying more items without tearing easily. With proper care, these bags can be reused repeatedly over a long period, making them a practical and responsible choice for the environment. By choosing reusable bags, you are actively contributing to the reduction of single-use plastics and promoting a sustainable lifestyle. 
                   </p>
                 </div>
               </div>
@@ -80,7 +80,7 @@ const News = () => {
                 <div className="news-block-date">
                   <p>
                     
-                  Build eco-friendly habits by encouraging them to turn off the lights when they leave the room or turn off the television when they’re not watching it. Also, remind them not to stand in front of the refrigerator with the door open.
+                  Build eco-friendly habits by encouraging them to turn off the lights when they leave the room or turn off the television when they’re not watching it. Also, remind them not to stand in front of the refrigerator with the door open. Encourage them to switch to energy-efficient LED bulbs for lighting. Remind them to only run the dishwasher or washing machine when it’s fully loaded to save water and energy. Teach them to unplug devices and chargers when they’re not in use to avoid wasting electricity. Suggest setting the thermostat a few degrees higher in summer or lower in winter to conserve energy. Encourage walking, biking, or carpooling whenever possible to reduce their carbon footprint. Remind them to sort and recycle waste properly to minimize landfill contributions. Finally, inspire them to plant trees or grow a small garden to help improve air quality and support biodiversity.
                   </p>
                 </div>
               
