@@ -75,7 +75,7 @@ const Home = () => {
             <div id="hero-slide" className="carousel carousel-fade slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img src="assets/images/slide/volunteer-helping-with-donation-box.jpg" className="carousel-image img-fluid" alt="..." />
+                  <img src= {home.img1|| ""}className="carousel-image img-fluid" alt="..." />
                   </div>
                 </div>
               </div>
@@ -87,37 +87,37 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-10 col-12 text-center mx-auto">
-            <h2 className="mb-5">Welcome to EcoHabit</h2>
+            <h2 className="mb-5">{home.t1}</h2>
           </div>
           <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
             <div className="featured-block d-flex justify-content-center align-items-center">
               <a href="donate.html" className="d-block">
-                <img src="assets/images/icons/hands.png" className="featured-block-image img-fluid" alt />
-                <p className="featured-block-text">Become a <strong>volunteer</strong></p>
+                <img src= {home.imgg1|| ""}className="featured-block-image img-fluid" alt />
+                <p className="featured-block-text">{home.tlt3}<strong>{home.tlt4}</strong></p>
               </a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
             <div className="featured-block d-flex justify-content-center align-items-center">
               <a href="donate.html" className="d-block">
-                <img src="assets/images/icons/heart.png" className="featured-block-image img-fluid" alt />
-                <p className="featured-block-text"><strong>Caring</strong> Earth</p>
+                <img src={home.imgg2|| ""} className="featured-block-image img-fluid" alt />
+                <p className="featured-block-text"><strong>{home.caring}</strong> {home.earth}</p>
               </a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
             <div className="featured-block d-flex justify-content-center align-items-center">
               <a href="donate.html" className="d-block">
-                <img src="assets/images/icons/receive.png" className="featured-block-image img-fluid" alt />
-                <p className="featured-block-text">Healthy <strong>Living</strong></p>
+                <img src={home.mg|| ""} className="featured-block-image img-fluid" alt />
+                <p className="featured-block-text">{home.healthy } <strong>{home.living}</strong></p>
               </a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
             <div className="featured-block d-flex justify-content-center align-items-center">
               <a href="donate.html" className="d-block">
-                <img src="assets/images/icons/scholarship.png" className="featured-block-image img-fluid" alt />
-                <p className="featured-block-text"><strong>Scholarship</strong> Program</p>
+                <img src={home.mg1|| ""} className="featured-block-image img-fluid" alt />
+                <p className="featured-block-text"><strong>{home.tlt1}</strong> {home.tlt2}</p>
               </a>
             </div>
           </div>
