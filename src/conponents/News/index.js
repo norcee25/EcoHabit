@@ -66,7 +66,7 @@ const News = () => {
               </div>
               <div className="news-block-two-col-info">
                 <div className="news-block-title mb-2">
-                  <h6><a href="news-detail.html" className="news-block-title-link">Refill</a></h6>
+                  <h6><a href="news-detail.html" className="news-block-title-link">{news.subtitle2}</a></h6>
                 </div>
                 <div className="news-block-date">
                   <p>
@@ -75,7 +75,7 @@ const News = () => {
                   </p>
                 </div>
                 <div className="news-block-title mb-2">
-                  <h6><a href="news-detail.html" className="news-block-title-link">Reduce your electricity use</a></h6>
+                  <h6><a href="news-detail.html" className="news-block-title-link">{news.subtitle3}</a></h6>
                 </div>
                 <div className="news-block-date">
                   <p>
