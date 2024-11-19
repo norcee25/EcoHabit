@@ -46,7 +46,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-7 col-12">
-            <p className="copyright-text mb-0">Copyright © 2024  Design: <a href="https://templatemo.com" target="_blank">EcoHabit</a></p>
+            <p className="copyright-text mb-0">{footer.ds} <a href="https://templatemo.com" target="_blank">{footer.eh}</a></p>
           </div>
           <div className="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
             <ul className="social-icon">
