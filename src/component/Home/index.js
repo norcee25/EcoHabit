@@ -128,7 +128,7 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-12 mb-5 mb-lg-0">
-            <img src="assets/images/group-people-volunteering-foodbank-poor-people.jpg" className="custom-text-box-image img-fluid" alt />
+            <img src= {home.tt|| ""}className="custom-text-box-image img-fluid" alt />
           </div>
           <div className="col-lg-6 col-12">
             <div className="custom-text-box">

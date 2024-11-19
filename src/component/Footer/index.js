@@ -1,4 +1,16 @@
+import { getDatabase, ref, onValue } from "firebase/database";
+import { useEffect,useState } from "react";
+
 const Footer = () => {
+    const [footer, setFooter ] = useState ({})
+    useEffect (() => {
+        const db = getDatabase();
+        const footerRef = ref(db, "footer");
+        onValue(footerRef, (snapshot) => {
+            const data = snapshot.val();
+            setFooter(data);
+        });
+    }, []);
     return (
 <div>
 <footer className="site-footer">
@@ -8,25 +20,24 @@ const Footer = () => {
           <img src="assets/images/logo.png" className="logo img-fluid" alt />
         </div>
         <div className="col-lg-4 col-md-6 col-12 mb-4">
-          <h5 className="site-footer-title mb-3">Quick Links</h5>
           <ul className="footer-menu">
-            <li className="footer-menu-item"><a href="#" className="footer-menu-link">Our Story</a></li>
-            <li className="footer-menu-item"><a href="#" className="footer-menu-link">Newsroom</a></li>
-            <li className="footer-menu-item"><a href="#" className="footer-menu-link">Causes</a></li>
-            <li className="footer-menu-item"><a href="#" className="footer-menu-link">Partner with us</a></li>
+            <li className="footer-menu-item"><a href="#" className="footer-menu-link">{footer.os}</a></li>
+            <li className="footer-menu-item"><a href="#" className="footer-menu-link">{footer.nr}</a></li>
+            <li className="footer-menu-item"><a href="#" className="footer-menu-link">{footer.c}</a></li>
+            <li className="footer-menu-item"><a href="#" className="footer-menu-link">{footer.p}</a></li>
           </ul>
         </div>
         <div className="col-lg-4 col-md-6 col-12 mx-auto">
-          <h5 className="site-footer-title mb-3">Contact Infomation</h5>
+          <h5 className="site-footer-title mb-3">{footer.ci}</h5>
           <p className="text-white d-flex">
             <i className="bi-envelope me-2" />
             <a href="mailto:info@yourgmail.com" className="site-footer-link">
-              EcoHabit@unklab.ac.id
+              {footer.id}
             </a>
           </p>
           <p className="text-white d-flex mt-3">
             <i className="bi-geo-alt me-2" />
-            Universitas Klabat
+           {footer.uk}
           </p>
         </div>
       </div>
@@ -35,8 +46,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-7 col-12">
-            <p className="copyright-text mb-0">Copyright © 2024 
-              Design: <a href="https://templatemo.com" target="_blank">EcoHabit</a></p>
+            <p className="copyright-text mb-0">Copyright © 2024  Design: <a href="https://templatemo.com" target="_blank">EcoHabit</a></p>
           </div>
           <div className="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
             <ul className="social-icon">
