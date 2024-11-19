@@ -41,19 +41,19 @@ const News = () => {
           </div>
           <div className="col-lg-4 col-12 mx-auto">
 
-            <h5 className="mt-5 mb-3">{news.title5}</h5>
+           
             <div className="news-block news-block-two-col d-flex mt-4">
               <div className="news-block-two-col-image-wrap">
                 
               </div>
               <div className="news-block-two-col-info">
                 <div className="news-block-title mb-2">
-                  <h6><a href="news-detail.html" className="news-block-title-link">Use Canvas Bags Instead of Plastic</a></h6>
+                  <h6><a href="news-detail.html" className="news-block-title-link">{news.subtitle}</a></h6>
                 </div>
                 <div className="news-block-date">
                   <p>
                     
-                  If you want to become more environmentally conscious, using reusable shopping bags is a wise choice. Cloth bags, especially those made from eco-friendly materials like canvas, are a better alternative to plastic. In addition to helping reduce plastic waste, cloth bags are more durable and capable of carrying more items without tearing easily. With proper care, these bags can be reused repeatedly over a long period, making them a practical and responsible choice for the environment. By choosing reusable bags, you are actively contributing to the reduction of single-use plastics and promoting a sustainable lifestyle. 
+                  {news.text1}
                   </p>
                 </div>
               </div>
@@ -71,7 +71,7 @@ const News = () => {
                 <div className="news-block-date">
                   <p>
                     
-                  Rather than relying on single-use plastic bottles, opt for a sturdy metal water bottle and make it a habit to fill it up before heading out. You can also find a nearby bulk store or refill station to replenish your everyday essentials, such as detergent or body wash, in reusable containers. This simple switch not only minimizes plastic waste but also encourages a sustainable lifestyle that benefits both you and the environment. Metal water bottles are highly durable, keeping your beverages at the desired temperature for extended periods. Choosing bulk stores can also help you save money as you only pay for the product, not the packaging. Additionally, purchasing items in bulk reduces the demand for single-use plastic packaging, indirectly supporting industries that prioritize sustainable practices. Small habits, such as refilling containers, can inspire those around you to follow suit, creating a ripple effect of positive change. 
+                  {news.text2}
                   </p>
                 </div>
                 <div className="news-block-title mb-2">
@@ -80,7 +80,7 @@ const News = () => {
                 <div className="news-block-date">
                   <p>
                     
-                  Build eco-friendly habits by encouraging them to turn off the lights when they leave the room or turn off the television when they’re not watching it. Also, remind them not to stand in front of the refrigerator with the door open. Encourage them to switch to energy-efficient LED bulbs for lighting. Remind them to only run the dishwasher or washing machine when it’s fully loaded to save water and energy. Teach them to unplug devices and chargers when they’re not in use to avoid wasting electricity. Suggest setting the thermostat a few degrees higher in summer or lower in winter to conserve energy. Encourage walking, biking, or carpooling whenever possible to reduce their carbon footprint. Remind them to sort and recycle waste properly to minimize landfill contributions. Finally, inspire them to plant trees or grow a small garden to help improve air quality and support biodiversity.
+                  {news.text3}
                   </p>
                 </div>
               
