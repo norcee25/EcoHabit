@@ -21,7 +21,7 @@ import { useEffect,useState } from "react";
         </div>
         <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
           <div className="custom-block-wrap">
-            <img src="assets/images/causes/Farmers Market.jpeg" className="custom-block-image img-fluid" alt />
+            <img src={health.img1 || ""} className="custom-block-image img-fluid" alt />
             <div className="custom-block">
               <div className="custom-block-body">
                 <h5 className="mb-3">{health.title1}</h5>
@@ -32,7 +32,7 @@ import { useEffect,useState } from "react";
         </div>
         <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
           <div className="custom-block-wrap">
-            <img src="assets/images/causes/running.jpeg" className="custom-block-image img-fluid" alt />
+            <img src={health.img2 || ""} className="custom-block-image img-fluid" alt />
             <div className="custom-block">
               <div className="custom-block-body">
                 <h5 className="mb-3">{health.title2}</h5>
@@ -43,7 +43,7 @@ import { useEffect,useState } from "react";
         </div>
         <div className="col-lg-4 col-md-6 col-12">
           <div className="custom-block-wrap">
-            <img src="assets/images/causes/friendly.jpeg" className="custom-block-image img-fluid" alt />
+            <img src={health.img3 || ""} className="custom-block-image img-fluid" alt />
             <div className="custom-block">
               <div className="custom-block-body">
                 <h5 className="mb-3">{health.title3}</h5>

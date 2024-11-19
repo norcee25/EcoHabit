@@ -16,28 +16,28 @@ const Team = () => {
     <div className="container">
       <div className="row">
         <div className="col-lg-6 col-12">
-          <img src="assets/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg" className="volunteer-image img-fluid" alt />
+          <img src={Team.avril || ""} className="volunteer-image img-fluid" alt />
           <div className="custom-block-body text-center">
             <h4 className="text-white mt-lg-3 mb-lg-3">{Team.satu}</h4>
             <p className="text-white">{Team.subsatu} </p>
           </div>
         </div>
         <div className="col-lg-6 col-12">
-          <img src="assets/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg" className="volunteer-image img-fluid" alt />
+          <img src={Team.vio || ""} className="volunteer-image img-fluid" alt />
           <div className="custom-block-body text-center">
             <h4 className="text-white mt-lg-3 mb-lg-3">{Team.dua}</h4>
             <p className="text-white">{Team.subsatu}</p>
           </div>
         </div>
         <div className="col-lg-6 col-12">
-          <img src="assets/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg" className="volunteer-image img-fluid" alt />
+          <img src={Team.carol || ""} className="volunteer-image img-fluid" alt />
           <div className="custom-block-body text-center">
             <h4 className="text-white mt-lg-3 mb-lg-3">{Team.tiga}</h4>
             <p className="text-white">{Team.subsatu}</p>
           </div>
         </div>
         <div className="col-lg-6 col-12">
-          <img src="assets/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg" className="volunteer-image img-fluid" alt />
+          <img src={Team.norce || ""} className="volunteer-image img-fluid" alt />
           <div className="custom-block-body text-center">
             <h4 className="text-white mt-lg-3 mb-lg-3">Tanaty, Norce Shoudick</h4>
             <p className="text-white">{Team.subsatu}</p>
