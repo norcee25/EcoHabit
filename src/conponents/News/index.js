@@ -21,7 +21,7 @@ const News = () => {
             <div className="news-block">
               <div className="news-block-top">
 
-                  <img src="assets/images/news/canvas1.png" className="news-image img-fluid" alt />
+                  <img src={news.image1 || ""} alt />
               
 
               </div>
@@ -29,7 +29,7 @@ const News = () => {
             <div className="news-block mt-3">
               <div className="news-block-top">
  
-                  <img src="assets/images/news/bottle.png" className="news-image img-fluid" alt />
+                  <img src={news.image2 || ""} alt />
                 
               </div>
               <div className="news-block-top">
