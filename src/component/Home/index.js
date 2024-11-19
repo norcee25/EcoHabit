@@ -132,15 +132,15 @@ const Home = () => {
           </div>
           <div className="col-lg-6 col-12">
             <div className="custom-text-box">
-              <h2 className="mb-2">About</h2>
-              <h5 className="mb-3">EcoHabit</h5>
-              <p className="mb-0">Ecohabit is a lifestyle or habit focused on healthy living. It includes daily actions such as reducing plastic use, conserving energy and water, using environmentally friendly transportation, and recycling. The goal is to reduce the negative impact on the planet and promote a healthier, more sustainable life.</p>
+              <h2 className="mb-2">{home.about}</h2>
+              <h5 className="mb-3">{home.ecc}</h5>
+              <p className="mb-0">{home.abt1}</p>
             </div>
             <div className="row">
               <div className="col-lg-6 col-md-6 col-12">
                 <div className="custom-text-box mb-lg-0">
-                  <h5 className="mb-3">Mission Of EcoHabit</h5>
-                  <p>Ecohabit aims to inspire individuals to adopt sustainable practices that benefit both the environment and personal health. By making intentional changes in daily habits—like reducing waste, conserving resources, and choosing eco-friendly options—Ecohabit seeks to contribute to a healthier planet and a more sustainable future for all.</p>
+                  <h5 className="mb-3">{home.hab}</h5>
+                  <p>{home.habec}</p>
                   <ul className="custom-list mt-2">
                   </ul>
                 </div>
@@ -152,9 +152,9 @@ const Home = () => {
                   <div className="counter-thumb mt-4"> 
                     <div className="d-flex">
                       <span className="counter-number" data-from={1} data-to={100} data-speed={900} />
-                      <span className="counter-number-text">Vission </span>
+                      <span className="counter-number-text">{home.visi} </span>
                     </div>
-                    <span className="counter-text">To create a global community where sustainable living is the norm, and every individual contributes to a healthier, more balanced planet. Ecohabit envisions a future where conscious choices lead to a world with reduced environmental impact, enhanced well-being, and a more sustainable lifestyle for generations to come.</span>
+                    <span className="counter-text">{home.y}</span>
                   </div> 
                 </div>
               </div>
